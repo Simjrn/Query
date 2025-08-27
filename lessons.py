@@ -16,7 +16,7 @@ if lesson == "lesson 1":
   Thank you = Grazia
 
   Very well = Fitg bain""")
-  answer = qy.make_sentence("hello, how are you?", ["allegra", "vai", "co"]
+  answer = qy.make_sentence("hello, how are you?", ["allegra", "vai", "co"])
   if st.button("submit"):
     if answer == ["allegra", "co", "vai"]:
       st.balloons()
