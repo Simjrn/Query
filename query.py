@@ -39,3 +39,6 @@ def dialog_chat(title, caption):
     def ask(caption):
         answer = st.chat_input(caption)
     ask(caption)
+  
+def make_sentence(prompt, words):
+  answer = st.multiselect(prompt, words)
